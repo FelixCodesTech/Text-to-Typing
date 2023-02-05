@@ -1,0 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainDiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+}
+
+#outputContainer{
+    width: clamp(50vw, 80vw, 1000px);
+}
+
+#inputContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#inputContainer *{
+    margin: 10px;
+}
+
+#inputContainer textarea{
+    margin: 10px;
+    height: 61.5px;
+}
+
+#numberInputContainer input{
+    height: 49px;
+    width: 49px;
+    aspect-ratio: 1/1;
+    margin: 0;
+}
+
+#numberInputContainer{
+    height: 61.5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#numberInputContainer h6{
+    margin: 0px;
+}
